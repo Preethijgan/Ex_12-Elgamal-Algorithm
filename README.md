@@ -1,9 +1,9 @@
 ## AIM:
 To encrypt and decrypt a message using the ElGamal encryption algorithm.
 ## ALGORITHM:
-1.Key Generation: Bob computes his public key y using p, g, and his private key x.<br>
-2.Encryption: Alice encrypts the message M using p, g, y, and her random key k to produce ciphertext (c1, c2).<br>
-3.Decryption: Bob decrypts the message using his private key x to recover M.<br>
+* Key Generation: Bob computes his public key y using p, g, and his private key x.<br>
+* Encryption: Alice encrypts the message M using p, g, y, and her random key k to produce ciphertext (c1, c2).<br>
+* Decryption: Bob decrypts the message using his private key x to recover M.<br>
 This algorithm provides secure communication between Alice and Bob using ElGamal encryption.
 ## PROGRAM:
 ```C
